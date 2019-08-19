@@ -5,7 +5,7 @@ void main ( ) {
 
   runApp(MaterialApp(
 
-    home: Game(),
+    home: Container(padding: EdgeInsets.all(16.0),child: Game()),
     debugShowCheckedModeBanner: false,
 
   ));
