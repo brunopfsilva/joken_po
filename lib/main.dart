@@ -1,10 +1,11 @@
-import 'package:flutter/material.dart';
+import 'package:joken_po/utils/imports.dart';
+
 
 void main ( ) {
 
   runApp(MaterialApp(
 
-    home: ,
+    home: Game(),
     debugShowCheckedModeBanner: false,
 
   ));
