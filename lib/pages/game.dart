@@ -14,7 +14,22 @@ class _GameState extends State<Game> {
       appBar: AppBar(
         title: Text("Joken Po"),
       ),
-      body: Container(),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          Padding(
+            padding: EdgeInsets.only(top: 32,bottom: 16.0),
+            child: Text(
+              "Escolha do App",
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 20,
+              fontWeight: FontWeight.bold
+              ),
+            ),
+          ),
+          Image.asset("images/padrao.png"),
+        ],
+      ),
     );
   }
 }
